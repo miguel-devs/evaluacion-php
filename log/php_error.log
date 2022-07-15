@@ -1,0 +1,28 @@
+[04-Jul-2022 07:57:50 UTC] PHP Warning:  Undefined array key "localhost" in C:\Users\Mike\Desktop\test-evaluacion\app\database\DB.php on line 16
+[04-Jul-2022 07:57:54 UTC] PHP Warning:  Undefined array key "localhost" in C:\Users\Mike\Desktop\test-evaluacion\app\database\DB.php on line 16
+[04-Jul-2022 07:57:54 UTC] PHP Warning:  Undefined array key "localhost" in C:\Users\Mike\Desktop\test-evaluacion\app\database\DB.php on line 16
+[04-Jul-2022 08:02:36 UTC] PHP Fatal error:  Uncaught Error: Class "FlashMessage" not found in C:\Users\Mike\Desktop\test-evaluacion\app\views\layout\bodyBottom.php:2
+Stack trace:
+#0 C:\Users\Mike\Desktop\test-evaluacion\app\views\menu\edit.php(18): include()
+#1 C:\Users\Mike\Desktop\test-evaluacion\app\controllers\MenuController.php(70): require_once('C:\\Users\\Mike\\D...')
+#2 [internal function]: App\controllers\MenuController->edit('47')
+#3 C:\Users\Mike\Desktop\test-evaluacion\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#4 C:\Users\Mike\Desktop\test-evaluacion\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('MenuController@...', Array)
+#5 C:\Users\Mike\Desktop\test-evaluacion\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\Users\Mike\Desktop\test-evaluacion\app\lib\routes.php(21): Bramus\Router\Router->run()
+#7 C:\Users\Mike\Desktop\test-evaluacion\index.php(13): require('C:\\Users\\Mike\\D...')
+#8 {main}
+  thrown in C:\Users\Mike\Desktop\test-evaluacion\app\views\layout\bodyBottom.php on line 2
+[04-Jul-2022 08:02:38 UTC] PHP Fatal error:  Uncaught Error: Class "FlashMessage" not found in C:\Users\Mike\Desktop\test-evaluacion\app\views\layout\bodyBottom.php:2
+Stack trace:
+#0 C:\Users\Mike\Desktop\test-evaluacion\app\views\menu\edit.php(18): include()
+#1 C:\Users\Mike\Desktop\test-evaluacion\app\controllers\MenuController.php(70): require_once('C:\\Users\\Mike\\D...')
+#2 [internal function]: App\controllers\MenuController->edit('47')
+#3 C:\Users\Mike\Desktop\test-evaluacion\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#4 C:\Users\Mike\Desktop\test-evaluacion\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('MenuController@...', Array)
+#5 C:\Users\Mike\Desktop\test-evaluacion\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\Users\Mike\Desktop\test-evaluacion\app\lib\routes.php(21): Bramus\Router\Router->run()
+#7 C:\Users\Mike\Desktop\test-evaluacion\index.php(13): require('C:\\Users\\Mike\\D...')
+#8 {main}
+  thrown in C:\Users\Mike\Desktop\test-evaluacion\app\views\layout\bodyBottom.php on line 2
+[15-Jul-2022 21:56:29 UTC] PHP Warning:  Undefined array key "token" in C:\Users\Mike\Desktop\test-evaluacion\app\views\layout\modal.php on line 15
